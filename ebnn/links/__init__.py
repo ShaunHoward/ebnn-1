@@ -71,17 +71,17 @@ uint8_t temp2[{inter_size}] = {{0}};
             fp.write(text)
 
 
-from link_bst import BST
-from link_pool import Pool2D
-from link_batch_normalization import BatchNormalization
-from link_binary_convolution import BinaryConvolution2D
-from link_binary_linear import BinaryLinear
-from link_softmax_cross_entropy import SoftmaxCrossEntropy
-from link_linear_BN_BST import LinearBNBST
-from link_binary_linear_BN_BST import BinaryLinearBNBST
-from link_binary_linear_softmax_layer import BinaryLinearSoftmax
-from link_binary_linear_BN_softmax_layer import BinaryLinearBNSoftmax
-from link_conv_BN_BST import ConvBNBST
-from link_binary_conv_BN_BST import BinaryConvBNBST
-from link_conv_pool_BN_BST import ConvPoolBNBST
-from link_binary_conv_pool_BN_BST import BinaryConvPoolBNBST
+from ebnn.links.link_bst import BST
+from ebnn.links.link_pool import Pool2D
+from ebnn.links.link_batch_normalization import BatchNormalization
+from ebnn.links.link_binary_convolution import BinaryConvolution2D
+from ebnn.links.link_binary_linear import BinaryLinear
+from ebnn.links.link_softmax_cross_entropy import SoftmaxCrossEntropy
+from ebnn.links.link_linear_BN_BST import LinearBNBST
+from ebnn.links.link_binary_linear_BN_BST import BinaryLinearBNBST
+from ebnn.links.link_binary_linear_softmax_layer import BinaryLinearSoftmax
+from ebnn.links.link_binary_linear_BN_softmax_layer import BinaryLinearBNSoftmax
+from ebnn.links.link_conv_BN_BST import ConvBNBST
+from ebnn.links.link_binary_conv_BN_BST import BinaryConvBNBST
+from ebnn.links.link_conv_pool_BN_BST import ConvPoolBNBST
+from ebnn.links.link_binary_conv_pool_BN_BST import BinaryConvPoolBNBST
